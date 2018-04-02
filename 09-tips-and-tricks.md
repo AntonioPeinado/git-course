@@ -1,4 +1,4 @@
-# Tip and tricks
+# Tips and tricks
 
 ## Ignoring files and folders
 
