@@ -6,7 +6,7 @@
 
 ### Working directory
 
-Its the directory where your project is located within your computer, changes here will be invisible to the rest of the team.
+It's the directory where your project is located within your computer, changes here will be invisible to the rest of the team.
 
 ### Staging area
 
@@ -20,7 +20,7 @@ All files in the local repository will be compared with the remote one and then 
 
 ### Remote repository
 
-Here your project is stored and accessible to your team members. Changes can be identified and tracked and different strategies  can be implemented to adopt a correct version control system.
+Here your project is stored and accessible to your team members. Changes can be identified and tracked and different strategies can be implemented to adopt a correct version control system.
 
 ## Daily commands
 
@@ -34,7 +34,7 @@ git add . # Adds the current directory to staging
 
 ### Commit
 
-`commit` is used for storing stagged files into the local database that represents our local repository. We can must add a commit message through our configured text editor or with the option `-m`.
+`commit` is used for storing staged files into the local database that represents our local repository. We must add a commit message through our configured text editor or with the option `-m`.
 
 ```bash
 git commit -m "some important info"
@@ -60,7 +60,7 @@ git pull origin destination # Destination is by default your current branch!
 
 ### Delete local changes
 
-If wanting to un-stagge your `uncommited` changes you can do it by using `stash` command.
+If wanting to un-stage your `uncommited` changes you can do it by using `stash` command.
 
 ```bash
 git stash
@@ -80,7 +80,7 @@ Read more [here](https://git-scm.com/docs/git-reset)
 
 ### Remove untracked files
 
-If wanting to remove files before stagging them with `add`, but not all of them, use `clean` with the option `-i`, this will open a prompt where you can work interactively.
+If wanting to remove files before staging them with `add`, but not all of them, use `clean` with the option `-i`. This will open a prompt where you can work interactively.
 
 ```bash
 git clean -i

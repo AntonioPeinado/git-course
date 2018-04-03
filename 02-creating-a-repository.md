@@ -4,7 +4,7 @@ We can create a repository in two ways, starting from a project which is not in 
 
 ## Starting from a project
 
-First thing we have to do is creating an empty git repository and then openning the folder that contains our project inside a terminal:
+First thing we have to do is creating an empty git repository and then opening the folder that contains our project inside a terminal:
 
 ```bash
 cd path/to/my/awesome/project
@@ -19,7 +19,7 @@ git init # Creates .git folder where your project config is stored
 `Add` some files to version control tracking and `commit` them to the repository with a message:
 
 ```bash
-git add . # Add current folder documents and subfolders to the stagging area
+git add . # Add current folder documents and subfolders to the staging area
 git commit -m "initial commit" # Send those files to the local repository
 ```
 

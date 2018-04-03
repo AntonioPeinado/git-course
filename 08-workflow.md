@@ -8,7 +8,7 @@ Once you are familiarized with Git, it is time to choose or elaborate a workflow
 
 When working in a software project, the first thing that should be done is to identify `which task` should be completed after a set deadline.
 
-After those task are identified they can be assigned to or taken by different team members, to minimize conflicts it is important to do so with care and avoid that multiple members are working simultaneously on the same pieces of code.
+After those tasks are identified they can be assigned to or taken by different team members, to minimize conflicts it is important to do so with care and avoid that multiple members are working simultaneously on the same pieces of code.
 
 For that you can use `feature branches`. A feature brach will represent a specific task, and ideally only one developer will be working on it. For example, if the task is implementing a menu, we would create a feature branch menu, called `feature/menu`. Note that the name is just a convention,
 you could have called it `f-menu`, the important thing here is that you and your team share an strategy for naming the branches.
@@ -31,9 +31,9 @@ Once all features are finished and merged, changes should be pushed to a `releas
 
 Release candidate branches are used to describe a set of features that are going to be delivered soon. You can have as many `release candidate` branches as you need, differenciating them adding a `version or sprint` number to the name. For example `R.C. 1.0.0` or `R.C. Sprint 23`.
 
-Here a `Quality assurance` team, (which can be the same development one) must berify that the software that is going to be delivered complies with the `acceptance tests` and the `functional and non-functional requisites` that were specified for the delivery.
+Here a `Quality assurance` team, (which can be the same development one) must verify that the software that is going to be delivered complies with the `acceptance tests` and the `functional and non-functional requisites` that were specified for the delivery.
 
-Once verified that the release is correct with respect to its specification, it can go into production by mergin it into `master`.
+Once verified that the release is correct with respect to its specification, it can go into production by merging it into `master`.
 
 In order to be able to come back to a previous release in case of disaster, it is important to keep this branches in the remote repository for a not too short period of time.
 
