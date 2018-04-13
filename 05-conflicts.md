@@ -1,7 +1,7 @@
 # Conflicts
 
 After a `pull` or `merge` command it is not rare to find `conflicts` in our code.
-Most changes will be automatically merget but if, for example, you and another person edited the same file lines at the same time. This conflicts must be resolved with a new commit before you can `push` the changes to the `remote repository`.
+Most changes will be automatically merged but if, for example, you and another person edited the same file lines at the same time. This conflicts must be resolved with a new commit before you can `push` the changes to the `remote repository`.
 
 ![pizza](./05-conflicts.jpg)
 
@@ -15,7 +15,7 @@ git status
 
 Most text editors offer support for fixing conflicts but it is usefull to know how to identify them:
 
-* `<<<<<<< HEAD` marks the line where the conflict beggings.
+* `<<<<<<< HEAD` marks the line where the conflict begins.
 * `=======` separates the `current` and `incoming` changes.
 * `>>>>>>> branch_name` marks the end of the conflict.
 

@@ -2,7 +2,7 @@
 
 ## Install
 
-First of all lets install the `Git client`:
+First of all let's install the `Git client`:
 
 * Windows: download the installer from [here](https://git-scm.com/download/win).
 * Linux / Mac:
@@ -19,7 +19,7 @@ git --version
 
 ## Hi, my name is Foo
 
-Git need to know who you are, that information will be used to identify yout commits and to give you access to private repositories
+Git needs to know who you are, that information will be used to identify yout commits and to give you access to private repositories
 
 ```bash
 git config --global user.name "Foo Bar"
@@ -48,7 +48,7 @@ We can configure an `SSH` key so we don't need to care about our username or pas
 
 ### Generating an SSH key
 
-First thing we need is creating an `SSH` key:
+First thing we need is to create an `SSH` key:
 
 1. Open a shell (__if running Windows use `Git bash`__)
 2. Enter the following command to create a new key:
@@ -57,7 +57,7 @@ First thing we need is creating an `SSH` key:
        ssh-keygen -t rsa -b 4096 -C "foo@baz.bar"
     ```
 3. Once promted to do so, enter the location in which to store the key, or press `enter` for using the `default` location.
-4. Now you can opt to enter a password for using the key or not, if not leave the next promp blak and press `enter`. If you decide to use one note that you will be asked for it every time.
+4. Now you can opt to enter a password for using the key or not, if not leave the next prompt blank and press `enter`. If you decide to use one note that you will be asked for it **every time.**
 
 ### Add your SSH key to the ssh-agent
 
@@ -86,17 +86,17 @@ Last step is to add your __`public`__ key to your Git server account, we will be
 3. In the left menu navigate to `SSH and GPG keys`.
 4. Click on `new SSH key`.
 5. Insert a name that represents your current computer, since the key you previously generated is specific to it, for example `Office computer`.
-6. Paste your previously coppied key and click on `Add SSH key`.
+6. Paste your previously copied key and click on `Add SSH key`.
 
 ### Verify it works
 
-Finally lets check everyting is setup correctly by running:
+Finally let's check everything is setup correctly by running:
 
 ```bash
 ssh -T git@github.com # or whichever server you are using
 ```
 
-Dont worry abot the message saying the autenticity can't be established, this is just because is the first time we connect to that host, type `yes` and press `enter`, you should see a greetings message.
+Don't worry about the message saying the authenticity can't be established, this is just because it's the first time we connect to that host, type `yes` and press `enter`, you should see a greetings message.
 
 ## Sources
 

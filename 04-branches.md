@@ -2,7 +2,7 @@
 
 ## Creating a new branch
 
-For creating a new branch use the following command
+To create a new branch use the following command:
 
 ```bash
 git branch branch_name
@@ -28,7 +28,7 @@ git fetch && git checkout branch_name
 
 ## Pushing to the new branch
 
-If wanting to make a new branch available in the `remote repository` configure the `upstream` when pushing:
+If you want to make a new branch available in the `remote repository` configure the `upstream` when pushing:
 
 ```bash
 git push --set-upstream origin branch_name
